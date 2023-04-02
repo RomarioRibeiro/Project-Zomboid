@@ -4,31 +4,24 @@
 <head>
     <title>Project Zomboid</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body background="imagem/fundo.png">
-    <table border="0" align="center" width="900">
-        <tr>
-            <td height="200">
-                <img src="imagem/logo.jpg" alt="Logo" style="border-radius: 10px;">
-            </td>
-            <td align="right">
-                <a href="index.html">Home</a> |
-                <a href="Sobre.html">Sobre</a> |
-                <a href="Contato.html">Contato</a>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <hr>
-                <img src="imagem/capa.jpg" alt="" width="900">
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <img src="imagem/logo.jpg" alt="" width="200">
+        </div>
+        <div id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Contato.html">Contato</a>
+        </div>
+    </div>
+    <div id="area-principal">
+        <div id="area-postagem">
+            <div class="postagem">
+                <img width="620" src="imagem/capa.jpg" alt="">
                 <h2>Jogabilidade</h2>
                 <p>No Project Zomboid, o jogador pretende sobreviver o maior tempo possível em uma área apocalíptica e
                     cheia de zumbis de Kentucky - conhecida como 'Knox County' - que foi colocada em quarentena pelo
@@ -37,28 +30,42 @@
                     precisa gerenciar suas necessidades pessoais (como fome, estresse, fadiga e tédio) para permanecer
                     vivo descansando, procurando suprimentos e usando técnicas de sobrevivência. O jogo usa os zumbis
                     lentos do estilo Romero tradicional, embora certos zumbis sejam mais rápidos que outros, e o modo
-                    sandbox inclui uma configuração para zumbis "velocistas" no estilo 28 Days Later.
+                    sandbox inclui uma configuração para zumbis "velocistas" no estilo 28 Days Later. O jogo apresenta
+                    uma variedade de modos de dificuldade predefinidos, juntamente com um modo sandbox, que permite ao
+                    jogador personalizar as configurações de seu jogo, como população de zumbis, transmissibilidade de
+                    vírus e raridade de saque. Knox Country - a região jogável em Project Zomboid - baseia sua
+                    localização na vida real Kentucky. As cidades de Muldraugh, West Point e Louisville são vagamente
+                    replicadas no mundo do jogo ao lado de outros locais fictícios. O mundo torna-se mais desolado com o
+                    passar do tempo, com o corte das redes de água e energia, seguido pela erosão e crescimento
+                    excessivo das estruturas da região. Além disso, o jogo apresenta um conjunto de cenários fixos de
+                    'desafio', alguns dos quais são definidos em mapas separados e menores e/ou apresentam elementos de
+                    jogabilidade únicos, como uma tempestade de inverno sem fim ou uma horda de zumbis que rastreia o
+                    jogador.</p>
+            </div>
 
-                    O jogo apresenta uma variedade de modos de dificuldade predefinidos, juntamente com um modo sandbox,
-                    que permite ao jogador personalizar as configurações de seu jogo, como população de zumbis,
-                    transmissibilidade de vírus e raridade de saque.
-
-                    Knox Country - a região jogável em Project Zomboid - baseia sua localização na vida real Kentucky.
-                    As cidades de Muldraugh, West Point e Louisville são vagamente replicadas no mundo do jogo ao lado
-                    de outros locais fictícios. O mundo torna-se mais desolado com o passar do tempo, com o corte das
-                    redes de água e energia, seguido pela erosão e crescimento excessivo das estruturas da região. Além
-                    disso, o jogo apresenta um conjunto de cenários fixos de 'desafio', alguns dos quais são definidos
-                    em mapas separados e menores e/ou apresentam elementos de jogabilidade únicos, como uma tempestade
-                    de inverno sem fim ou uma horda de zumbis que rastreia o jogador.</p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <hr>
-                <h2>Diretos Reservados</h2>
-            </td>
-        </tr>
-    </table>
+        </div>
+        <div id="area-lateral">
+           <div class="sub-titulo">
+            <h3>Site Official</h3>
+            <div class="texto">
+                <a href="https://projectzomboid.com/blog/">Blog Offical</a>
+                <a href="https://map.projectzomboid.com/">Mapa do Game</a>
+                <a href="https://store.steampowered.com/agecheck/app/108600/">Compre Agora</a>
+            </div>
+           </div>
+           <div class="sub-titulo" style="border-bottom: none;">
+            <h3>Build</h3>
+            <img src="imagem/build.jpg" alt="" width="220" >
+            <div class="texto">
+                <p>Crie itens para ajudá-lo a permanecer vivo. Quer se trate de armas, comida ou uma tábua de madeira pregada a uma porta...</p>
+            </div>
+           </div>
+           
+        </div>
+        <div id="rodape">
+           <h2>Todos os direitos reservados</h2> 
+        </div>
+    </div>
 </body>
 
 </html>

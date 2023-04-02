@@ -1,0 +1,123 @@
+/*  
+Limpando campo
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 1em;
+    color: #20262E;
+  
+}
+
+/*  
+Formatando link 
+*/
+
+a{
+    text-decoration: none;
+    
+}
+
+a:link, a:visited{
+    color: #777;
+    padding: 8px 12px;
+}
+
+a:hover{
+    background: #fff;
+    color: #777;
+}
+
+
+/*  
+Formatando cabeçalho 
+*/
+
+#area-cabecalho{
+   /* background: black;*/
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*  
+Formatando Principal 
+*/
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/*  
+Formatando postagem 
+*/
+#area-postagem{
+    width: 670px;
+ 
+    float: left;
+}
+
+/*  
+Formatando lateral 
+*/
+#area-lateral{
+    width: 230px;
+    background: #fff;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom:20px ;
+    background: #F0EEED;
+}
+
+/*  
+Formatando rodape
+*/
+#rodape{
+clear: both;
+text-align: center;
+
+}
+#rodape , h2{
+color: #777;
+}
+/*  
+Formatando logo 
+*/
+#area-logo, #area-menu{
+    
+    padding: 8px ;
+}
+
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*  
+Formatando  a area lateral 
+*/
+
+.sub-titulo{
+    border-bottom: 1px solid #777;
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.texto > a{
+    display: block;
+}
+.texto > a:link, a:vertical {
+   color: #777;
+}
+.texto > a:hover {
+   background: #20262E;
+}
